@@ -7,7 +7,7 @@
 
 :white_check_mark: 表示任务已完成
 
-|任务号|截止日期|JetMuffin|sunzequn|InnerAc|GMpj|filow|
+|任务号|截止日期|JetMuffin|sunzequn|BLKStone|GMpj|filow|
 |---|---|:---:|:---:|:---:|:---:|:---:|
 |任务1|3.16|-|-|-|-|-|
 |任务2|-|-|-|-|-|-|
