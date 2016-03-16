@@ -1,0 +1,8 @@
+.container .row [class*='col-'] {
+  height: 50px;
+  background-color: #eee;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 50px; }
+
+/*# sourceMappingURL=demo.css.map */

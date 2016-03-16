@@ -1,0 +1,51 @@
+// 栅格系统
+// 参考文章：http://j4n.co/blog/Creating-your-own-css-grid-system
+$sm-max-width: 768px;
+$lg-min-width: 768px;
+
+$columns: 12;
+$gutter: 20px;
+.container {
+  margin: 0 auto 0 auto;
+}
+.row {
+  &:before, &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  margin-left: -$gutter/2;
+  margin-right: -$gutter/2;
+}
+[class*='col-'] {
+  float: left;
+  margin: $gutter / 2;
+  min-height: 1px;
+}
+@media (max-width: $sm-max-width) {
+  .container {
+    width: 750px;
+
+  }
+  @for $i from 1 through $columns {
+    .col-sm-#{$i} {
+      width: floor(10000% / ($columns + 1 - $i)) / 100;
+    }
+  }
+}
+
+@media (min-width: $lg-min-width) {
+  .container {
+    width: 970px;
+
+  }
+  @for $i from 1 through $columns {
+    .col-lg-#{$i} {
+      width: floor(10000% / ($columns + 1 - $i)) / 100;
+    }
+  }
+}
+
+.container-fluid {
+
+}
