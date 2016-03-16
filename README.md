@@ -22,7 +22,7 @@
 |任务11|-|-|-|-|-|-|
 |任务12|-|-|-|-|-|-|
 ## 团队成员
-@JetMuffin, @sunzequn, @InnerAc, @GMpj, @filow
+@JetMuffin, @sunzequn, @BLKStone, @GMpj, @filow
 ## 如何认领任务
 把README里面相应的表格中，自己那行的状态改一下就可以了。
 
