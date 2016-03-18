@@ -31,6 +31,9 @@
 }
 
 .personal-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 80px;
     height: 80px;
 }
