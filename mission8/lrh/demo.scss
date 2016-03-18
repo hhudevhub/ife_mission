@@ -1,11 +1,19 @@
-.container {
-  .row {
-    [class*='col-'] {
-      height: 50px;
-      background-color: #eee;
-      border: 1px solid #999;
-      text-align: center;
-      line-height: 50px;
-    }
+// 栅格系统里定义边距的话那么就不太通用了，所以边距都放到这里来写
+
+body {
+  padding: 10px 20px;
+  margin: 0;
+}
+// 定义demo里要用到的样式
+.content {
+  height: 50px;
+  background-color: #eee;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 50px;
+}
+.row {
+  [class*='col-'] {
+    padding: 10px;
   }
 }

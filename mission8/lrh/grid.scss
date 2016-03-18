@@ -1,51 +1,54 @@
 // 栅格系统
 // 参考文章：http://j4n.co/blog/Creating-your-own-css-grid-system
+// 也同时参考了bootstrap的设计
+// 定义两种栅格的宽度
 $sm-max-width: 768px;
 $lg-min-width: 768px;
-
+// 栅格数量
 $columns: 12;
+// 间距大小
 $gutter: 20px;
+// 主容器
 .container {
   margin: 0 auto 0 auto;
+  width: 100%;
 }
 .row {
+  // 保证后面的col不会float到前面的row去
   &:before, &:after {
     clear: both;
     content: "";
     display: table;
   }
+  // 给一点边距，好放下column
   margin-left: -$gutter/2;
   margin-right: -$gutter/2;
 }
 [class*='col-'] {
   float: left;
-  margin: $gutter / 2;
+  padding-left: $gutter / 2;
+  padding-right: $gutter / 2;
   min-height: 1px;
+  // border-box用来把padding也算到width里，可以保证不会超出去
+  // 这个是实现gutter的核心！
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-@media (max-width: $sm-max-width) {
-  .container {
-    width: 750px;
 
-  }
+@media (max-width: $sm-max-width) {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
-      width: floor(10000% / ($columns + 1 - $i)) / 100;
+      width: floor(10000% / $columns * $i) / 100;
     }
   }
 }
 
 @media (min-width: $lg-min-width) {
-  .container {
-    width: 970px;
-
-  }
   @for $i from 1 through $columns {
     .col-lg-#{$i} {
-      width: floor(10000% / ($columns + 1 - $i)) / 100;
+      // 留两位小数的百分比数值
+      width: floor(10000% / $columns * $i) / 100;
     }
   }
-}
-
-.container-fluid {
-
 }
