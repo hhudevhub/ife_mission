@@ -1,0 +1,50 @@
+.main, .left, .middle, .right {
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.left, .middle, .right {
+    background-color: white;
+}
+
+.main {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #eee;
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    width: 200px;
+}
+
+.middle {
+    margin-left: 260px;
+    margin-right: 180px;
+}
+
+.right {
+    float: right;
+    width: 120px;
+}
+
+.personal-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.team-logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+
+}
+
+.team-name {
+    text-align: center;
+}
