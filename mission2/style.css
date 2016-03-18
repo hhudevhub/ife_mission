@@ -1,0 +1,165 @@
+body {
+	font-family:"Microsoft Yahei";
+	margin: 0px;
+}
+
+header {
+	background-color: #333333;
+	
+}
+
+.logo {
+	float: left;
+	max-height: 68px;
+	margin: 10px 20px 10px 20px;
+}
+
+.header-nav {
+	float: right;
+	
+}
+.header-nav li {
+	
+	float: left;
+	margin-left: 1em;
+}
+.header-nav li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 1em;
+	display:block;
+	width:60px;
+}
+
+body {
+	background-color: #dedede;
+}
+
+.passage {
+
+	margin: 30px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 3px 3px 3px #999999;
+}
+.passage ul {
+	list-style: none;
+}
+#textp {
+	text-indent: 2em;
+}
+#url {
+	list-style: none;
+	color: #0000FF;
+}
+
+h3{
+	color: #777;
+	font-size: 1em;
+}
+#author-time {
+	color: #999;
+	font-size: 0.8em;
+
+}
+
+
+
+#picture img{
+	max-width: 100px;
+}
+
+
+.pictures:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.pictures p {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+.pictures div {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+.pictures img {
+	max-width: 100px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+}
+thead {
+	background-color: #333;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+tfoot {
+	background-color: #ccc;
+	font-weight: bold;
+}
+th,td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.sidebar h2 {
+	font-size: 1em;
+	padding: 10px;
+	border-left: 5px solid #ccc;
+}
+
+label.title {
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+	margin-right: 1em;
+	margin-top: 0.7em;
+}
+
+.hint {
+	color: #999;
+	font-size: 0.7em;
+}
+
+.form-block {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+textarea {
+	vertical-align: text-top;
+	width: 60%;
+	height: 10em;
+}
+
+.form-submit {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: #35d;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+}
+
