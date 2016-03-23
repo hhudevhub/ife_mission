@@ -1,5 +1,5 @@
 body {
-	font-family:"Microsoft Yahei";
+	font-family:"Source Han Sans CN","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei";
 	margin: 0px;
 }
 
@@ -7,6 +7,7 @@ header {
 	background-color: #333333;
 	
 }
+.clear {clear: both;}
 
 .logo {
 	float: left;
@@ -16,6 +17,7 @@ header {
 
 .header-nav {
 	float: right;
+	font-size: 12px;
 	
 }
 .header-nav li {
@@ -28,14 +30,18 @@ header {
 	text-decoration: none;
 	margin-right: 1em;
 	display:block;
-	width:60px;
+	/*width:60px;*/
 }
 
+.disabled{
+	list-style: none;
+	color: #DDDDDD;
+}
 body {
 	background-color: #dedede;
 }
 
-.passage {
+.card {
 
 	margin: 30px;
 	padding: 20px;
@@ -45,10 +51,10 @@ body {
 .passage ul {
 	list-style: none;
 }
-#textp {
+.textp {
 	text-indent: 2em;
 }
-#url {
+.url {
 	list-style: none;
 	color: #0000FF;
 }
@@ -57,7 +63,7 @@ h3{
 	color: #777;
 	font-size: 1em;
 }
-#author-time {
+.author-time {
 	color: #999;
 	font-size: 0.8em;
 
@@ -65,7 +71,7 @@ h3{
 
 
 
-#picture img{
+.picture img{
 	max-width: 100px;
 }
 
@@ -81,35 +87,40 @@ h3{
 	margin: 0 0 10px 0;
 	text-align: center;
 }
-.pictures div {
-	border: 1px solid #cccccc;
-	padding: 10px;
-	margin: 10px;
-	display: inline-block;
-	float: left;
-	clear: both;
-}
+
 .pictures img {
 	max-width: 100px;
 }
+.pictures li{
+	width: 100px; 
+	border: 1px solid #cccccc;
+	padding: 10px 10px; 
+	text-align: center; 
+	margin-bottom: 20px;
+}
 
-table {
+.pictures h1{
+	font-size: 12px; 
+	font-weight: normal
+}
+
+.mtable {
 	width: 100%;
 	border-collapse: collapse;
 	margin: 0;
 	padding: 0;
 }
-thead {
+.mtable thead {
 	background-color: #333;
 	color: white;
 	font-weight: bold;
 	text-align: left;
 }
-tfoot {
+.mtable tfoot {
 	background-color: #ccc;
 	font-weight: bold;
 }
-th,td {
+.mtable th,.mtable td {
 	border: 1px solid #ccc;
 	padding: 5px;
 }
@@ -120,7 +131,7 @@ th,td {
 	border-left: 5px solid #ccc;
 }
 
-label.title {
+.title {
 	display: inline-block;
 	text-align: right;
 	width: 30%;
@@ -150,9 +161,11 @@ textarea {
 	margin-top: 10px;
 	color: white;
 	font-weight: bold;
+	outline: none;
 	font-size: 1em;
 	background-color: #35d;
 	border-radius: 10px;
+	border: 0;
 }
 
 footer {
@@ -162,4 +175,6 @@ footer {
 	font-weight: bold;
 	background-color: black;
 }
+
+
 
