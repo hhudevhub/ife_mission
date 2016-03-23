@@ -10,7 +10,7 @@
 |任务号|截止日期|JetMuffin|sunzequn|BLKStone|GMpj|filow|
 |---|---|:---:|:---:|:---:|:---:|:---:|
 |任务1|:white_check_mark:|-|-|-|:white_check_mark:|-|
-|任务2|3.19|-|-||:ok_hand:|-|
+|任务2|3.19|-|-||:white_check_mark:|-|
 |任务3|-|-|-|:ok_hand:|-|-|
 |任务4|-|-|-|-|-|-|
 |任务5|-|-|-|-|-|-|

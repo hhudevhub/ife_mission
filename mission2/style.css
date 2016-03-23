@@ -1,0 +1,175 @@
+body {
+	font-family:"Source Han Sans CN","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei";
+	margin: 0px;
+  background-color: #dedede;
+}
+
+header {
+	background-color: #333333;
+
+}
+.clear {clear: both;}
+
+.logo {
+	float: left;
+	max-height: 68px;
+	margin: 10px 20px 10px 20px;
+}
+
+.header-nav {
+	float: right;
+	font-size: 12px;
+
+}
+.header-nav li {
+
+	float: left;
+	margin-left: 1em;
+}
+.header-nav li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 1em;
+	display:block;
+	/*width:60px;*/
+}
+
+.header-nav li a.disabled{
+	list-style: none;
+	color: #DDDDDD;
+}
+
+.card {
+
+	margin: 30px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 3px 3px 3px #999999;
+}
+.passage ul {
+	list-style: none;
+}
+.textp {
+	text-indent: 2em;
+}
+.url {
+	list-style: none;
+	color: #0000FF;
+}
+
+h3{
+	color: #777;
+	font-size: 1em;
+}
+.author-time {
+	color: #999;
+	font-size: 0.8em;
+
+}
+
+
+
+.picture img{
+	max-width: 100px;
+}
+
+
+.pictures:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.pictures p {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.pictures img {
+	max-width: 100px;
+}
+.pictures li{
+	width: 100px;
+	border: 1px solid #cccccc;
+	padding: 10px 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pictures h1{
+	font-size: 12px;
+	font-weight: normal
+}
+
+.mtable {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+}
+.mtable thead {
+	background-color: #333;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+.mtable tfoot {
+	background-color: #ccc;
+	font-weight: bold;
+}
+.mtable th,.mtable td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.sidebar h2 {
+	font-size: 1em;
+	padding: 10px;
+	border-left: 5px solid #ccc;
+}
+
+.title {
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+	margin-right: 1em;
+	margin-top: 0.7em;
+}
+
+.hint {
+	color: #999;
+	font-size: 0.7em;
+}
+
+.form-block {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+textarea {
+	vertical-align: text-top;
+	width: 60%;
+	height: 10em;
+}
+
+.form-submit {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	outline: none;
+	font-size: 1em;
+	background-color: #35d;
+	border-radius: 10px;
+	border: 0;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+}
